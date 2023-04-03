@@ -1,17 +1,17 @@
 ## Instalação
 
 ```bash
-$ git clone https://github.com/xperiencexr/filmes.git
+$ git clone https://github.com/gabrielnascr/green-acesso-challenge.git
 ```
 
 ```bash
-$ npm install
+$ yarn
 ```
 
 ## Executar a aplicação
 
 ```bash
 # watch mode
-$ npm run start:dev
+$ yarn dev
 ```
 
