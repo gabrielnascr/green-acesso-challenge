@@ -38,10 +38,6 @@ export default function Layout() {
     getCharacters();
   }, [getCharacters]);
 
-  useEffect(() => {
-    console.log(characterModalOpen);
-  }, [characterModalOpen])
-
   return (
     <>
       <CharacterModal character={selectedCharacter} isOpen={characterModalOpen} />
